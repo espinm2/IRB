@@ -3,7 +3,6 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \graphicspath{{images/}}
- 
 
 \pagestyle{plain}
 \renewcommand{\baselinestretch}{1.}
@@ -44,72 +43,96 @@ All investigators, including faculty supervisors, on this project must
 complete the self-study course on protection of human research
 subjects. \\
 {\bf Certification:  I/We have completed the course:} \\
-Max Espinoza (CS PhD Student) 10/05/15 \\ 
-Barbara M Cutler 7/2/08, refresher 11/2/11 % Might get complaints about not up to date refresher
+Max Espinoza (CS PhD Student) 11/09/15 \\ 
+Barbara M Cutler 7/2/08, refresher 11/2/11 %FIXME Update when completed
 
 \paragraph{Objective:}
-%
-Our goal in this study is to evaluate the effectiveness and usability of 
-our web based sketching interface for the creation of closed architectural 
-geometries and daylighting analysis.
+
+Daylighting plays an important role in architecture, its creative and effective use offers occupants aesthetics visuals, increases in productivity, and energy savings. 
+In order to realize the benefits of daylight, architects must consider daylighting during the early stages of architecture.
+The schematic design phase is an early stage in architecture where architects brainstorm how a space will look and feel. 
+Moreover, architects will generally brainstorm on paper through rough architectural sketches and hand drawn floor plans.
+Architects will go through many iterations and variations of an idea before committing on a design to show a client.
+Additionally, designing a space to effectively use natural lighting is non-trivial  due to its dynamic nature. 
+Current software available for daylighting analysis requires time-intensive 3D modeling, which does not capture the spirit of the schematic design phase.
+With this in mind, we present a novel online architectural sketching interface for simulations that is easily accessible to non-experts providing them with the tools to perform daylighting analysis during the schematic design phase of an architectural space.
+We call this online architectural sketching interface for simulation the Web Interface for the Virtual Heliodon.
+For the purpose of evaluating our tool and improving our online architectural sketching interface, we ask participants to both design architectural spaces and perform daylighting simulations.
+
+% Old Objective
+% Our goal in this study is to evaluate the effectiveness and usability of 
+% our web based sketching interface for the creation of closed architectural 
+% geometries and daylighting analysis.
 
 \paragraph{Methods:}
 %
-Users in our study will begin by visiting a provided URL serviced by a password protected lab machine.
-Users will be required to register by providing a username of their choice and a password.
-During registration users will be given a brief explanation of their participation in our
-user study. There will also be an option to opt out of the user study, but still use our web interface. 
-This opt out option will be clearly displayed when registering for our web application.
-We will not use designs or feedback of users who have opted out of the study.
-A sample screenshot of the registration process is shown below.
-After a successful login users will then be taken the main page of our application.
-The application is split into two parts. On the left hand side are the tools required to
-make sketches and generate 3D models. On the right hand side is a feedback panel with question 
-that can be answered at any point of the study. These questions are not required to be answered in order
-to use the web interface. Users can choose to answer some questions, but leave others blank.
-Participants can stop at any point in time and continue by logging into the web interface
-with their username and password.\\
+Participants in our study will begin by visiting a site hosting the Web Interface for the Virtual Heliodon. 
+Afterwards, participants will then register with a username and password of their choosing.
+During registration, we will provide a brief explanation about participants' inclusion into our user study.
+At the same time, we will also provide an option for participants to opt-out of the user study and still use the Web Interface for the Virtual Heliodon. 
+The opt-out option will be clearly displayed when participants are registering. 
+Similarly, we will not use any content created by participants who have opted out of the study.
+See figure~\ref{fig:registration} on page~\pageref{fig:registration} for a screenshot of the sign-in and registration page. \\
 
-\noindent
-The questions asked are attached at the end of this document. (Along with sample screenshots)
+After a successful login, participants will then be taken the main page of the Web Interface for the Virtual Heliodon.
+From this point on the application is visually split into two portions. 
+On the left-hand side are the tools to make 2D sketches of architectural spaces, convert 2D sketches into 3D models, and view daylighting simulation results. 
+On the right-hand side, we provide a feedback panel with questions that participants can answer at any point of the study. 
+We do not require that participants answer any feedback questions to continue use of the Web Interface of the Virtual Heliodon. 
+Likewise, participants can choose to answer some questions but leave others blank.
+Also, participants can stop at any point in time and continue by logging back into our site with their username and password pair.
+Ultimately, we designed this user study to be accessible, straightforward, and optional for all our participants. \\
 
-\paragraph{Effects on Subjects:} See benefits and risks.
+The list of feedback questions we present to our participants is attached at the end of this document. 
+Additionally, we include screenshots of the Web Interface for the Virtual Heliodon.
+
+\paragraph{Effects on Subjects:} See Benefits to Participants and Minimization of Possible Risk.
 
 \paragraph{Benefits to Participants:}
 %
-The participants will gain first-hand experience with a new online sketching
-environment for the generation of 3D models, and an understanding of the 
-iterative design process of creating architectural spaces. The results 
-of the study will lead to the use, development, and improvement of algorithms that
-interpret architectural sketches. In addition user's feedback will lead to 
-improvements in our daylighting visualizations.
-
+Participants will gain first-hand experience with a new online architectural sketching environment for the generation of 3D models, in addition to an understanding of the iterative design process of creating architectural spaces. 
+Participants will also gain a better understanding of architectural daylighting and the difficulties of designing well-lit space.
+Participants will run daylighting simulations and view results through our Web Interface for the Virtual Heliodon to learn more about the lighting of their virtually created space at any given date and time.
+On the whole, participants voluntarily providing general feedback helps us, the investigators, evaluate the effectiveness of our 2D architectural sketching interface and our choice in visualizations.
 
 \paragraph{Minimization of Possible Risks:}   
 % 
-There is no rick of physical harm in our web interface study. 
-The only tool required to participate in this study is a computer and webbrowser.
-We have considered the issue of computer security. Users will provided two kinds 
-of digital information: design files and feedback. 
-Design files are created automatically as the participants uses our interface. 
-These files save user's sketches in a format that is unique to our interface.
-To protect users we have a login system that requires a unique username and password pair. Users will be able to
-revisit the website to review/edit design files and feedback.
-The application is designed to store information created by users on a PostgreSQL 
-database serviced by the Computer Science Department, of which only investigators have direct access to.
-The machine hosting this webpage will be using an up to date Apache server and hypertext transfer protocol secure (HTTPS)
-for maximal security. We will also hash user's password, such that no where on the system will
-user's passwords be stored in plain text.
-Users are not required to download anything on their computers to participate in this study, nor will
-they be required to make security exceptions on firewalls or anti-virus protection software.
-Our webpage is only dependent on users having a webbrowser (Firefox or Chrome) to participate.
+There is no risk of physical harm in our Web Interface for the Virtual Heliodon.
+The only tool required to participate in this study is a computer with a modern web browser.
+As a result, we have also considered the issue of computer security. 
+To protect participants' created content we have a login system that requires a unique username and password pair.
+We will also hash participants' password using the SHA-1 hashing algorithm so that nowhere on the system will passwords be stored in plain text.
+Likewise, the machine hosting our site will be using an up to date Apache server and hypertext transfer protocol secure (HTTPS) for maximal security. 
+The machine we use to host the Web Interface for the Virtual Heliodon is both password protected and situated in a locked office.
+This machine is only accessible to the investigators of this study.
+To summarize, participants are not required to download anything on their computers to participate in this study, nor will they be required to make security exceptions on firewalls or anti-virus protection software.
+Again the Web Interface for the Virtual Heliodon is only dependent on participants having both a computer and web browser ( i.e. Firefox or Google Chrome )\\
 
-\noindent
-The answers to some questions may contain personally identifiable information.
-For example participant are asked to identify what room they are creating a sketch of, more over users are asked how often they visit this room.
-All the questions in our survey are optional, including those questions which may contain personally identifiable information.
+We follow standard web security practices on account of the two kinds of digital information participants provide.
+Participants will provide and create designs files in the form of 2D architectural sketches and feedback in the form of plain text responses.\\
+
+% Design files
+Notably, our application creates design files, a unique encoding of 2D architectural sketches, as participants  use our application.
+Participants are encouraged to load previously created 2D architectural sketches and make revisions for daylighting improvements.
+As a result, we create and save these design files for both the purpose of the user study and the revision feature. 
+We use a PostgreSQL database serviced by the Computer Science Department to store participants' created content. 
+Please note that only the investigators have direct access to this database. Furthermore, we store but not use content created by participants who opted out of the study. 
+For all participants' convenience, we store all design files to support the revision feature. \\
+
+% Explanation about copyrights
+We will be collecting user created content. 
+Users retain copyright of designs created in our Web Interface for the Virtual Heliodon.  
+Upon registration we, the investigators, will request the right to use both designs and feedback to test our software and as examples in publications.
+Users can opt-out of both software-testing research and publication of their designs and feedback.
+Lastly, note that all the feedback questions in our survey are optional, including those questions which may be answered with personally identifiable information. 
+Namely, we are interested in RPI students to participate in recreating dormitories on our Web Interface for the Virtual Heliodon.
+We ask for participants to recreate campus dormitories so that we can evaluate participant's accuracy against blueprints provided by the university.
+We also ask questions pertaining to a participants' experience in an architectural space, in order to measure participants' confidence in the recreation of that space.
+Some participants may answer vaguely while other participants may answer in great detail with personally identified information.
+As a result, we have taken all standard web security measures described above to protect participants' feedback information.
 
 \paragraph{Likelihood of  Harm:}   None
+
 \paragraph{Alternate Method Not Using Human Subjects:} None
 
 \paragraph{Qualifications of Researcher:}
@@ -119,72 +142,55 @@ Computer Science at Rensselaer Polytechnic Institute studying computer
 graphics.
 
 \paragraph{Recruiting of Subjects:}
-We will ask for online volunteers to use our webpage and participate in this
-user study. We will advertise our web page to student volunteers (18 years or older) 
-via posters, campus related social media, and direct contact with students attending 
-related courses. We will obtain permission of the course instructors to advertise 
-for the participation of their students, but participation in the study will be 
-voluntary and will not impact their course grade. The faculty advisor for the 
-study (Barbara Cutler) will not recruit students in her courses to participate.  
-The names of the students who did or did not participate in the study will be 
-confidential and will not be released to their instructors.
-
-We are particularly interested in participants with experience in 3D modeling, 
-architectural daylighting, general architecture, and visual arts. We are looking 
-for users with formal education and experience in the above fields to provide 
-us valuable feedback to improve our web interface's usability and functionality. 
-This experience is not required for participation in the user study, but the 
-subject's will have an opportunity to note prior experience in these related fields.
+We will ask for anonymous online volunteers to use our site to participate in this user study. 
+We will also advertise our site to student volunteers (18 years or older) via posters, campus-related social media, and direct contact with students attending related courses. 
+We will obtain permission from course instructors to advertise for the participation of their students, however participation in the study will be voluntary and will not impact their course grade. 
+The faculty advisor for the study (Barbara Cutler) will not recruit students in her courses to participate.  
+We are particularly interested in participants with experience in 3D modeling, architectural daylighting, general architecture, and visual arts.
+We are looking for users with formal education and experience in the above fields to provide us valuable feedback to improve the Web Interface for the Virtual Heliodon's usability and functionality. 
+Albeit experience in the above fields is not required for participation in the user study.
 
 \paragraph{Confidentiality:} 
-Participants will register themselves with a username of their choice,
-when logging into the web interface for the first time. 
-We do not require users to use any personally identified usernames and password pairs such as those provided by
-the RPI (RSC IDs). We work under the assumption that users follow standard practices for the creation 
-and management of their login credential's.
-The participates can stop and continue where they left off at any point during this study using their
-unique usernames. Users will also provide a password, which we will hash using SHA-1 method. 
-This hashed password is used to protect user's design file and
-feedback information. No where in our application will the user be asked for their real 
-name. Participants will be identified by a randomly assigned ID number that is used only for 
-this study. All recorded user information and design files will be labeled with this ID 
-(and not the participant's username). All information and data relating to the user study 
-will be protected to secure confidentiality. All electronic files will be stored on password 
-protected computers in locked offices, which can be accessed only by the investigators of 
-the user study. The correspondence between ID number and participant username will be recorded 
-by Barbara Cutler and stored on a password protected computer, accessible only by her. 
-This correspondence will be destroyed once analysis of the data is complete, within 1 year 
-after participation in the study.
+Participants will register themselves with a username of their choice when logging into the Web Interface for the Virtual Heliodon for the first time. 
+We do not require participants use any personally identified usernames and password pairs such as those provided by the RPI (RSC IDs). 
+We work under the assumption that participants follow standard practices for the creation and management of their login credential's.
+Moreover, participants may optionally provide an email address that will solely be used for follow up questions regarding specific architectural designs.
+The emails of the users who did or did not participate in the study will be confidential and will not be released to their instructors. 
+Overall, nowhere in our application will participants be asked for their real name. 
 
 \newpage
-\paragraph{Registration and Login Sample:}
-When users visit our URL they will be directed to a registration page. Users who have already previously registered can navigate another page to sign in. Screenshots of the registration page are provided below. On this page users are only required to provide a username and password. In addition there is a brief prompt explaining what information is being recorded and an option to opt out of this study. All other kinds of user input beyond this point are optional.
+\paragraph{Registration and Login Screenshots:}
+When participants visit our Web Interface for the Virtual Heliodon they are directed to a registration page. 
+However, participants whom previously registered can directly sign into our application. Moreover, during registration there is a brief prompt explaining what information we are recording and an option to opt out of this study. 
+All other user input beyond this point is optional.
+
 
 \begin{figure}[h]
 
   \begin{subfigure}{.5\textwidth}
     \centering
     \includegraphics[scale=0.5]{ss_reg}
-    \caption{This is the registration page for new user. Note the brief statement regarding participation in our user study.}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
     \centering
     \includegraphics[scale=0.5]{ss_sign}
-    \caption{Sign in prompt}
   \end{subfigure}
 
-\caption{Registration and Sign in pages}
+\caption{Left) This is the registration page for new participants. Notice the brief statement regarding participation in our user study. The hyperlink anchored to word "research" directs participants to more background information about related studies. Right) Participants will first encounter this sign-in prompt when visiting our site.}  
+
+\label{fig:registration}
 \end{figure}
 
 \newpage
 \paragraph{Sample User Specific Questions:}
-These are sample questions we will ask on a per user basis. All of these
-questions are optional. Screenshots of where these questions are presented in our website are provided below.
+These are sample questions we ask each participant when first logging into the Web Interface for the Virtual Heliodon.
+All of these questions are optional, yet we explicitly label some questions optional to remind participants that they are not required to answer. 
+We provide screenshots of where these questions are presented in our interface below.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{ss_load}
-\caption{This is the main page of our interface. Notice the questions users are encouraged to answer are located only the right hand side of the webpage.}
+\caption{This is the main page of our Web Interface for the Virtual Heliodon. Notice that questions participants are encouraged to answer are located on the right hand side of the interface. We purposefully placed feedback questions here to avoid being obstructive. }
 \label{fig:sfig1}
 \end{figure}
 
@@ -231,11 +237,9 @@ questions are optional. Screenshots of where these questions are presented in ou
 \newpage
 
 \paragraph{Design Specific Sample Questions:}
-These are sample questions we will ask on a per design basis.
-Upon the creation of a design these questions will be available for users to answer.
-Again all of these questions are optional.
-Some of these questions ask users for possibly personally identifiable information, however participants are not required to answer these questions. We remind users that these questions are optional by labeling them as optional.
-Screenshots of where these questions are presented in our website are provided below.
+These are sample questions we will ask per architectural  2D sketch.
+Upon the creation of a design these questions will be available for participants to answer.
+Again, all of these questions are optional and we remind users that these questions are optional by labeling them as optional. Screenshots of where these questions are presented in our website are provided below.
 
 \begin{figure}[h]
   \begin{subfigure}{.5\textwidth}
@@ -250,7 +254,8 @@ Screenshots of where these questions are presented in our website are provided b
     %\caption{Users visualize the 3D rendering of their designs here. }
     %\label{fig:sfig2}
   \end{subfigure}
-\caption{Left) This is sketching interface where users create designs. These designs are recorded for future analysis. Right) Users can view the daylighting of their 3D generated designs. Notice how throughout the application the feedback we are collecting is non-intrusive and located on the right hand side. }
+\caption{Left) Above is a screenshot the sketching interface where participants create 2D architectural sketches. The designs of participants, that have not opted out, are saved for inclusion into our user study. Moreover, we save these designs with intension of analysing the 2D architectural sketches that our algorithm could not convert into 3D models. This analysis will help us, the investigators, in improving our algorithm for the Web Interface for the Virtual Heliodon.
+Right) Participants can also view 3D daylighting simulation results from their 2D architectural sketches. Notice how throughout the application the feedback we are collecting is non-intrusive and located on the right hand side. }
 %\label{fig:fig}
 \end{figure}
 
